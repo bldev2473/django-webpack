@@ -4,3 +4,7 @@ console.log(g_var)
 function printVar() {
     console.log(g_var)
 }
+
+document.getElementById("test1").addEventListener("click", function() {
+    printVar();
+});
